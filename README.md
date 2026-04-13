@@ -43,3 +43,10 @@ This repo is the source of truth for:
 4. practical findings come back through `practicalFeedback`
 
 If theory changes but the shared handoff is not updated, the lab will drift.
+
+## AI agents
+
+Any future AI agent working in this repo must read:
+- `AI-WORKFLOW.md`
+- `AGENTS.md`
+- `cka-shared/handoff.json`

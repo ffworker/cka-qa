@@ -34,3 +34,12 @@ This repo is the source of truth for:
 - stable topics
 - unstable concepts
 - practical recommendations
+
+## Workflow in the larger system
+
+1. theory work happens here
+2. results are written into `cka-shared/handoff.json`
+3. `cka-lab` reads those results and builds practical work from them
+4. practical findings come back through `practicalFeedback`
+
+If theory changes but the shared handoff is not updated, the lab will drift.

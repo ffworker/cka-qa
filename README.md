@@ -17,7 +17,7 @@ Do not use this repo for hands-on labs or noisy manifest experiments.
 ## Connected repo
 
 This repo writes handoff data to:
-- `../cka-shared/handoff.json`
+- `cka-shared/handoff.json` via the git submodule
 
 ## Core commands in chat
 

@@ -1,5 +1,82 @@
 # cka-qa
 
+## Kubernetes learning map
+
+Legend:
+- 🟢 good
+- 🟡 meh / improving
+- 🔴 needs improvement
+- ⚪ not reviewed yet
+
+```text
+Kubernetes
+├─ Foundations
+│  ├─ 🟡 Core Principles
+│  └─ 🟡 Kubernetes Components
+│
+├─ Workloads
+│  ├─ 🟡 Pods
+│  ├─ 🔴 Deployments
+│  ├─ 🟢 ReplicaSets
+│  ├─ 🟢 DaemonSets
+│  ├─ 🟢 Commands and Arguments
+│  ├─ 🟡 Rolling Updates / Rollbacks
+│  ├─ 🟢 Multi-Container Pods
+│  └─ 🟢 Init Containers
+│
+├─ Services and Networking
+│  ├─ 🟡 Services
+│  ├─ 🟡 ClusterIP
+│  ├─ 🟡 NodePort
+│  ├─ 🟡 Labels / Selectors
+│  ├─ 🔴 Service -> Endpoints -> Pod
+│  ├─ ⚪ Ingress
+│  ├─ ⚪ Network Policies
+│  ├─ ⚪ CoreDNS / DNS Resolution
+│  └─ ⚪ CNI Basics
+│
+├─ Scheduling and Control
+│  ├─ 🟡 scheduler vs kubelet
+│  ├─ 🟡 Static Pods
+│  ├─ 🟡 Multiple Schedulers
+│  ├─ 🔴 Scheduler Profiles
+│  ├─ 🟢 Priority Classes
+│  ├─ ⚪ Taints and Tolerations
+│  ├─ ⚪ Node Selectors
+│  └─ ⚪ Affinity / Anti-Affinity
+│
+├─ Configuration and Secrets
+│  ├─ 🟡 Environment Variables
+│  ├─ 🟡 Secrets
+│  ├─ ⚪ ConfigMaps
+│  ├─ ⚪ Service Accounts
+│  └─ ⚪ Security Contexts
+│
+├─ Scaling and Resource Control
+│  ├─ 🟢 Resource Limits
+│  ├─ 🟡 Manual Scaling
+│  ├─ 🟡 HPA
+│  └─ 🟢 VPA
+│
+├─ Observability and Maintenance
+│  ├─ 🟢 Logging
+│  ├─ 🟢 Monitoring
+│  ├─ 🟢 Backup and Restore
+│  ├─ 🟢 etcd Backup
+│  ├─ ⚪ Resource backup
+│  └─ ⚪ OS Upgrades
+│
+└─ Security
+   ├─ 🟡 Admission Controllers
+   ├─ ⚪ Authentication
+   ├─ ⚪ TLS
+   ├─ ⚪ Certificates
+   ├─ ⚪ kubeconfig
+   ├─ ⚪ RBAC
+   ├─ ⚪ ClusterRoles
+   └─ ⚪ ServiceAccounts
+```
+
 Theory and recall workspace for CKA preparation.
 
 ## Purpose

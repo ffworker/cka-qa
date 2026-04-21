@@ -25,6 +25,9 @@
 - ServiceAccounts
 - Authentication
 - Certificates
+- Resource Backup
+- Node Selectors
+- ConfigMaps
 
 ## Stable
 - ReplicaSets
@@ -42,6 +45,7 @@
 - OS Upgrades
 - TLS
 - ClusterRoles
+- Taints and Tolerations
 
 ## Unstable Concepts
 - scheduler vs kubelet
@@ -67,3 +71,5 @@
 - compare etcd snapshot restore with YAML-only restore
 - compare kubeconfig, RBAC, ServiceAccounts, and authentication flow
 - compare certificate, private key, and CA trust roles
+- compare ConfigMaps, env vars, and Secrets
+- compare nodeSelector with taints/tolerations and later affinity

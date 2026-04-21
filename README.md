@@ -41,14 +41,14 @@ Kubernetes
 │  ├─ 🟡 Multiple Schedulers
 │  ├─ 🔴 Scheduler Profiles
 │  ├─ 🟢 Priority Classes
-│  ├─ ⚪ Taints and Tolerations
-│  ├─ ⚪ Node Selectors
+│  ├─ 🟡 Node Selectors
+│  ├─ 🟢 Taints and Tolerations
 │  └─ ⚪ Affinity / Anti-Affinity
 │
 ├─ Configuration and Secrets
 │  ├─ 🟡 Environment Variables
 │  ├─ 🟡 Secrets
-│  ├─ ⚪ ConfigMaps
+│  ├─ 🟡 ConfigMaps
 │  ├─ 🟡 ServiceAccounts
 │  └─ ⚪ Security Contexts
 │
@@ -63,8 +63,8 @@ Kubernetes
 │  ├─ 🟢 Monitoring
 │  ├─ 🟢 Backup and Restore
 │  ├─ 🟢 etcd Backup
-│  ├─ 🟢 OS Upgrades
-│  └─ ⚪ Resource backup
+│  ├─ 🟡 Resource Backup
+│  └─ 🟢 OS Upgrades
 │
 └─ Security and Access
    ├─ 🟡 Admission Controllers

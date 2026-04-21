@@ -49,7 +49,7 @@ Kubernetes
 │  ├─ 🟡 Environment Variables
 │  ├─ 🟡 Secrets
 │  ├─ ⚪ ConfigMaps
-│  ├─ ⚪ Service Accounts
+│  ├─ 🟡 ServiceAccounts
 │  └─ ⚪ Security Contexts
 │
 ├─ Scaling and Resource Control
@@ -63,18 +63,18 @@ Kubernetes
 │  ├─ 🟢 Monitoring
 │  ├─ 🟢 Backup and Restore
 │  ├─ 🟢 etcd Backup
-│  ├─ ⚪ Resource backup
-│  └─ ⚪ OS Upgrades
+│  ├─ 🟢 OS Upgrades
+│  └─ ⚪ Resource backup
 │
-└─ Security
+└─ Security and Access
    ├─ 🟡 Admission Controllers
-   ├─ ⚪ Authentication
-   ├─ ⚪ TLS
-   ├─ ⚪ Certificates
-   ├─ ⚪ kubeconfig
-   ├─ ⚪ RBAC
-   ├─ ⚪ ClusterRoles
-   └─ ⚪ ServiceAccounts
+   ├─ 🟡 Authentication
+   ├─ 🟢 TLS
+   ├─ 🟡 Certificates
+   ├─ 🟡 kubeconfig
+   ├─ 🟡 RBAC
+   ├─ 🟢 ClusterRoles
+   └─ 🟡 ServiceAccounts
 ```
 
 Theory and recall workspace for CKA preparation.

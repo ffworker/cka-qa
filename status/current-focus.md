@@ -20,6 +20,11 @@
 - Secrets
 - Manual Scaling
 - HPA
+- kubeconfig
+- RBAC
+- ServiceAccounts
+- Authentication
+- Certificates
 
 ## Stable
 - ReplicaSets
@@ -34,6 +39,9 @@
 - Monitoring
 - Backup and Restore
 - etcd Backup
+- OS Upgrades
+- TLS
+- ClusterRoles
 
 ## Unstable Concepts
 - scheduler vs kubelet
@@ -42,6 +50,8 @@
 - precise Pod definition under pressure
 - multiple schedulers vs scheduler profiles
 - available replicas during rolling updates
+- certificate vs private key
+- kubeconfig vs RBAC boundary
 
 ## Practical recommendations sent to lab
 - trace Deployment -> ReplicaSet -> Pods
@@ -55,3 +65,5 @@
 - compare multi-container Pods with init containers
 - compare manual scaling, HPA, and VPA
 - compare etcd snapshot restore with YAML-only restore
+- compare kubeconfig, RBAC, ServiceAccounts, and authentication flow
+- compare certificate, private key, and CA trust roles
